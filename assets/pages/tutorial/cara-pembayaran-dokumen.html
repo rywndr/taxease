@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial | TaxEase</title>
+    <!-- Document Icon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../../img/LOGO_SIGNAL.png"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <!-- Bootstrap JS-->
+    <script defer src="../../js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script defer src="../../js/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            class="img-fluid logo"
+            src="/assets/img/LOGO_SIGNAL.png"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bx bx-menu"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" s>
+            <li class="nav-item">
+              <a class="nav-link" href="../../../index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="../tutorial/tutorial.html"
+                >Tutorial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="../informasi/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-download px-3 collapsed"
+                href="../../../index.html#download"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../hubungi-kami.html">Hubungi Kami</a>
+            </li>
+          </ul>
+          <form class="d-flex mb-3 mb-lg-0">
+            <input
+              type="text"
+              class="form-control search"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-input"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Content Start -->
+    <div class="container-fluid tutorial my-lg-5 mb-5">
+      <div class="d-flex flex-column flex-md-row align-items-start">
+        <!-- m nav -->
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-body w-100 d-block d-md-none nav-tutor-m"
+        >
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div
+                class="nav flex-column nav-pills my-2"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <!-- m-registrasi -->
+                <button
+                  class="btn border my-1"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#m-registrasi"
+                  aria-expanded="false"
+                  aria-controls="m-registrasi"
+                >
+                  Registrasi
+                </button>
+                <div class="collapse" id="m-registrasi">
+                  <div class="card card-body">
+                    <div
+                      class="nav flex-column nav-pills"
+                      id="v-pills-tab"
+                      role="tablist"
+                      aria-orientation="vertical"
+                    >
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-regis-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-regis"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-regis"
+                        aria-selected="true"
+                      >
+                        Registrasi Pengguna
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-masuk-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-masuk"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-masuk"
+                        aria-selected="false"
+                      >
+                        Masuk Aplikasi
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-ubah-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-ubah"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-ubah"
+                        aria-selected="false"
+                      >
+                        Ubah Profil
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- m-stnk -->
+                <button
+                  class="btn my-1 border"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#m-stnk"
+                  aria-expanded="false"
+                  aria-controls="m-stnk"
+                >
+                  STNK
+                </button>
+                <div class="collapse" id="m-stnk">
+                  <div class="card card-body">
+                    <div
+                      class="nav flex-column nav-pills"
+                      id="v-pills-tab"
+                      role="tablist"
+                      aria-orientation="vertical"
+                    >
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-tambah-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-tambah"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-tambah"
+                        aria-selected="false"
+                      >
+                        Tambah Data Kendaraan
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-pendaftaran-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-pendaftaran"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-pendaftaran"
+                        aria-selected="false"
+                      >
+                        Pengesahan STNK
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-proses-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-proses"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-proses"
+                        aria-selected="false"
+                      >
+                        Proses Pengiriman Dokumen
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- m-cara pembayaran -->
+                <button
+                  class="btn border my-1 active"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#m-carapembayaran"
+                  aria-expanded="false"
+                  aria-controls="m-carapembayaran"
+                >
+                  Cara Pembayaran
+                </button>
+                <div class="collapse" id="m-carapembayaran">
+                  <div class="card card-body">
+                    <div
+                      class="nav flex-column nav-pills"
+                      id="v-pills-tab"
+                      role="tablist"
+                      aria-orientation="vertical"
+                    >
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-cara-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-cara"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-cara"
+                        aria-selected="false"
+                      >
+                        Cara Pembayaran Dokumen
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-transaksi-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-transaksi"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-transaksi"
+                        aria-selected="false"
+                      >
+                        Halaman Status Transaksi
+                      </button>
+                      <button
+                        class="nav-link text-start"
+                        id="v-pills-pengiriman-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#v-pills-pengiriman"
+                        type="button"
+                        role="tab"
+                        aria-controls="v-pills-pengiriman"
+                        aria-selected="false"
+                      >
+                        Halaman Status Pengiriman
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- left navigation -->
+        <div class="card me-4 d-md-block d-none" style="width: 25rem">
+          <div class="card-header">Tutorial</div>
+          <ul class="list-group list-group-flush">
+            <div
+              class="nav flex-column nav-pills px-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <!-- registrasi -->
+              <div class="jenis">Registrasi</div>
+              <hr class="mt-0" />
+              <button
+                class="nav-link text-start"
+                id="v-pills-regis-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-regis"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-regis"
+                aria-selected="true"
+              >
+                Registrasi Pengguna
+              </button>
+              <button
+                class="nav-link text-start"
+                id="v-pills-masuk-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-masuk"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-masuk"
+                aria-selected="false"
+              >
+                Masuk Aplikasi
+              </button>
+              <button
+                class="nav-link text-start"
+                id="v-pills-ubah-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-ubah"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-ubah"
+                aria-selected="false"
+              >
+                Ubah Profil
+              </button>
+              <!-- STNK -->
+              <div class="jenis mb-1">STNK</div>
+              <hr class="mt-0" />
+              <button
+                class="nav-link text-start"
+                id="v-pills-tambah-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-tambah"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-tambah"
+                aria-selected="false"
+              >
+                Tambah Data Kendaraan
+              </button>
+              <button
+                class="nav-link text-start"
+                id="v-pills-pendaftaran-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-pendaftaran"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-pendaftaran"
+                aria-selected="false"
+              >
+                Pengesahan STNK
+              </button>
+              <button
+                class="nav-link text-start"
+                id="v-pills-proses-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-proses"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-proses"
+                aria-selected="false"
+              >
+                Proses Pengiriman Dokumen
+              </button>
+              <!-- Cara Pembayaran -->
+              <div class="jenis mb-1">Cara Pembayaran</div>
+              <hr class="mt-0" />
+              <button
+                class="nav-link text-start active"
+                id="v-pills-cara-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-cara"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-cara"
+                aria-selected="false"
+              >
+                Cara Pembayaran Dokumen
+              </button>
+              <button
+                class="nav-link text-start"
+                id="v-pills-transaksi-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-transaksi"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-transaksi"
+                aria-selected="false"
+              >
+                Halaman Status Transaksi
+              </button>
+            </div>
+          </ul>
+        </div>
+
+        <div class="tab-content w-100" id="v-pills-tabContent">
+          <div
+            class="tab-pane fade"
+            id="v-pills-regis"
+            role="tabpanel"
+            aria-labelledby="v-pills-regis-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Registrasi Pengguna</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <ol>
+                    <li>
+                      Masukan data-data pribadi anda seperti NIK, Nama sesuai
+                      eKTP, alamat e-mail, nomor handphone, masukan kata sandi,
+                      ulangi kata sandi
+                    </li>
+                    <li>Memasukan foto eKTP</li>
+                    <img
+                      class="img-fluid"
+                      src="../../img/tutorial/tutorial-1.png"
+                      alt="tutorial upload e-ktp"
+                    />
+                    <li>Verifikasi biometric wajah dengan melakukan swafoto</li>
+                    <img
+                      class="img-fluid"
+                      src="../../img/tutorial/tutorial-2.png"
+                      alt="tutorial upload foto wajah"
+                    />
+                    <li>Memasukan OTP yang dikirimkan lewat SMS</li>
+                    <li>Registrasi berhasil</li>
+                    <li>
+                      Verifikasi ulang dengan mengklik link yang dikirimkan oleh
+                      SIGNAL ke e-mail yang telah didaftarkan.
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col"
+                  style="
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    padding-top: 0px;
+                    height: 0;
+                    overflow: hidden;
+                  "
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/3EZrVPkrZVk"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-masuk"
+            role="tabpanel"
+            aria-labelledby="v-pills-masuk-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Masuk Aplikasi</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <ol>
+                    <li>Buka Aplikasi</li>
+                    <p>Lanjut Keberanda</p>
+                    <li>Halaman Beranda</li>
+                    <p>Masuk / Daftar</p>
+                    <li>Nomor Handphone dan Kata Sandi</li>
+                    <p>
+                      Keamanan lapis pertama dengan Nomor Handphone dan Kata
+                      Sandi
+                    </p>
+                    <li>Validasi</li>
+                    <p>Berhasil Masuk Aplikasi Signal</p>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-ubah"
+            role="tabpanel"
+            aria-labelledby="v-pills-ubah-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Ubah Profil</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <ol>
+                    <li>Pilih Ubah Profil</li>
+                    <li>Simpan Data</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-tambah"
+            role="tabpanel"
+            aria-labelledby="v-pills-tambah-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Tambah Data Kendaraan</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="../../img/tutorial/tutorial-4.png"
+                    alt="tutorial daftar kendaraan"
+                  />
+                  <div>Mendaftarkan kendaraan milik sendiri</div>
+                  <ol>
+                    <li>Pilih menu Tambah Data Kendaraan Bermotor</li>
+                    <li>Pilih kendaraan atas nama sendiri</li>
+                    <li>Masukan Nomor Registrasi Kendaraan Bermotor</li>
+                    <li>Masukan 5 digit terakhir nomor rangka</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div>Mendaftarkan kendaraan milik orang lain</div>
+                  <ol>
+                    <li>
+                      Pilih tombol symbol tambah untuk menambah data kendaraan
+                      dokumen digital sehingga muncul tampilan form tambah
+                      dokumen data kendaraan
+                    </li>
+                    <li>
+                      Masukkan nama pemilik kendaraan pada kolom pemilik
+                      kendaraan, jika kendaraan tersebut milik istri atau anak
+                      dalam satu KK maka pilih Milik Keluarga satu KK
+                    </li>
+                    <li>
+                      Masukkan NRKB (Nomor Registrasi Kendaraan Bermotor) pada
+                      kolom NRKB
+                    </li>
+                    <li>
+                      Masukkan Nomor Rangka 5-digit terakhir pada kolom Nomor
+                      Rangka
+                    </li>
+                    <li>
+                      Masukan NIK pemilik kendaraan dan menggigah foto KTP
+                    </li>
+                    <li>Setelah semua kolom diisi maka klik tombol 'Lanjut'</li>
+                    <li>
+                      Kemudian akan tampil peringatan bahwa Dokumen berhasil
+                      ditambahkan
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col"
+                  style="
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    padding-top: 0px;
+                    height: 0;
+                    overflow: hidden;
+                  "
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/Xqjc6WuXRPk"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-pendaftaran"
+            role="tabpanel"
+            aria-labelledby="v-pills-pendaftaran-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Pengesahan STNK</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="../../img/tutorial/tutorial-4.png"
+                    alt="tutorial daftar pengesahan stnk"
+                  />
+                  <ol>
+                    <li>
+                      Pilih NRKB yang akan dilakukan pengesahan klik lanjut
+                    </li>
+                    <li>
+                      Informasi SKK pembayaran PKB dan SWDKLLJ akan muncul
+                      dengan jumlah yang harus dibayarkan
+                    </li>
+                    <li>Slide tombol kirim dokumen TBPKP</li>
+                    <li>
+                      Masukan alamat pengiriman (sesuai dengan kolom yang ada)
+                    </li>
+                    <li>
+                      Rekap biaya akan muncul pada layer telepon anda, klik
+                      lanjut
+                    </li>
+                    <li>
+                      Kemudian muncul notifikasi pilih cara pembayaran, klik
+                      pada tombol pilih cara pembayaran
+                    </li>
+                    <li>
+                      Kode bayar, jumlah yang dibayarkan dan cara pembayaran
+                      akan muncul
+                    </li>
+                    <li>
+                      Klik Lanjut maka cara pembayaran akan tampil sesuai dengan
+                      bank yang dipilih
+                    </li>
+                    <li>Proses selesai</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col"
+                  style="
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    padding-top: 0px;
+                    height: 0;
+                    overflow: hidden;
+                  "
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/6I714Ut87xA"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-proses"
+            role="tabpanel"
+            aria-labelledby="v-pills-proses-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Proses Pengiriman Dokumen</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="../../img/tutorial/tutorial-5.png"
+                    alt="Proses Pengiriman Dokumen"
+                  />
+                  <ol>
+                    <li>Isi data pengiriman</li>
+                    <li>Pilih Jasa Pengiriman</li>
+                    <li>Konfirmasi Data</li>
+                    <li>Notifikasi Lanjut Cara pembayaran</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade active show"
+            id="v-pills-cara"
+            role="tabpanel"
+            aria-labelledby="v-pills-cara-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Cara Pembayaran Dokumen</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="../../img/tutorial/tutorial-pembayaran.png"
+                    alt="tutorial Pembayaran Dokumen"
+                  />
+                  <ol>
+                    <li>Generate Kode Bayar</li>
+                    <li>Pilih Salah Satu Bank</li>
+                    <li>Pilih “Lanjut”</li>
+                    <li>Tampil Cara Pembayaran</li>
+                    <li>Pilih “Lanjut”</li>
+                    <li>Selesai</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col"
+                  style="
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    padding-top: 0px;
+                    height: 0;
+                    overflow: hidden;
+                  "
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/32StHGUPQ_4"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-transaksi"
+            role="tabpanel"
+            aria-labelledby="v-pills-transaksi-tab"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col"><h1>Halaman Status Transaksi</h1></div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="../../img/tutorial/tutorial-6.png"
+                    alt="cara bayar dokumen"
+                  />
+                  <ol>
+                    <li>Pilih Sedang Diproses</li>
+                    <p>Menampilkan Transaksi yang sedang diproses</p>
+                    <li>Pilih Transaksi</li>
+                    <p>Menampilkan Detail Transaksi yang sedang diproses</p>
+                    <li>Pilih Cek Status Pembayaran</li>
+                    <p>Cek pembayaran transaksi pengguna</p>
+                    <li>Pilih Kembali</li>
+                    <p>Notifikasi Pembayaran Berhasil</p>
+                    <li>Pilih Transaksi</li>
+                    <p>
+                      Menampilkan detail transaksi dengan status sudah dibayar
+                    </p>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container-fluid footer">
+        <div class="row justify-content-between align-items-start">
+          <div class="col-md-5">
+            <div class="d-flex align-items-center">
+              <img
+                class="img-fluid logo"
+                src="../../img/LOGO_SIGNAL.png"
+                alt="logo"
+              />
+              <div
+                class="mx-3"
+                style="border-left: 1px solid white; height: 29px"
+              ></div>
+              <div class="" style="font-weight: 800; font-size: 16px">
+                Dimana Saja, Kapan Saja, Dalam Satu Genggaman dan One Stop
+                Service
+              </div>
+            </div>
+          </div>
+          <div class="col-auto my-3 my-sm-0">
+            <div class="container-fluid p-0">
+              <div class="row mb-2">
+                <div class="col">
+                  <a href="../../pages/mengenai-signal.html">Mengenai SIGNAL</a>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <a href="../faq/faq.html">FAQ</a>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <a href="../../pages/kantor-samsat.html">Kantor SAMSAT</a>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <a href="../../pages/hubungi-kami.html">Hubungi Kami</a>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <a href="../../pages/author.html">Author Page</a>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <a
+                    target="_blank"
+                    href="../../ebook/cara-penggunaan-aplikasi-signal.pdf"
+                    download=""
+                    >Ebook</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex">
+              <a
+                href="https://www.facebook.com/samsatdigital.id"
+                class="socmed"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                  class="iconify"
+                  data-icon="bx:bxl-facebook"
+                  data-inline="false"
+                  style="transform: rotate(360deg)"
+                >
+                  <path
+                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://twitter.com/SamsatDigital"
+                class="socmed"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 1024 1024"
+                  class="iconify"
+                  data-icon="ant-design:twitter-outlined"
+                  data-inline="false"
+                  style="transform: rotate(360deg)"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0 0 75-94a336.64 336.64 0 0 1-108.2 41.2A170.1 170.1 0 0 0 672 174c-94.5 0-170.5 76.6-170.5 170.6c0 13.2 1.6 26.4 4.2 39.1c-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 0 0-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 0 1-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 0 1-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9c-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850C671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2c33.2-24.3 62.3-54.4 85.5-88.2z"
+                  ></path>
+                </svg>
+              </a>
+
+              <a
+                href="https://instagram.com/samsatdigital"
+                class="socmed"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                  class="iconify"
+                  data-icon="akar-icons:instagram-fill"
+                  data-inline="false"
+                  style="transform: rotate(360deg)"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M7.465 1.066C8.638 1.012 9.012 1 12 1c2.988 0 3.362.013 4.534.066c1.172.053 1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12c0 2.988-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.396 5.396 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066c-2.988 0-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.397 5.397 0 0 1-1.949-1.268a5.392 5.392 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12c0-2.988.013-3.362.066-4.534c.053-1.172.24-1.972.511-2.672a5.396 5.396 0 0 1 1.27-1.948a5.392 5.392 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511Zm8.98 1.98c-1.16-.053-1.508-.064-4.445-.064c-2.937 0-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.412 3.412 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445c0 2.937.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064c2.938 0 3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445c0-2.937-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.413 3.413 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379Zm-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986ZM8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996Zm10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89Z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://vt.tiktok.com/ZSJCN65dp/"
+                class="socmed"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  class="iconify"
+                  data-icon="cib:tiktok"
+                  data-inline="false"
+                  style="transform: rotate(360deg)"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M16.708.027C18.453 0 20.188.016 21.921 0c.105 2.041.839 4.12 2.333 5.563c1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-.063-3.855-.463-5.6-1.291c-.76-.344-1.468-.787-2.161-1.24c-.009 3.896.016 7.787-.025 11.667c-.104 1.864-.719 3.719-1.803 5.255c-1.744 2.557-4.771 4.224-7.88 4.276c-1.907.109-3.812-.411-5.437-1.369C4.307 29.027 2.412 26.12 2.136 23a22.3 22.3 0 0 1-.016-1.984c.24-2.537 1.495-4.964 3.443-6.615c2.208-1.923 5.301-2.839 8.197-2.297c.027 1.975-.052 3.948-.052 5.923c-1.323-.428-2.869-.308-4.025.495a4.618 4.618 0 0 0-1.819 2.333c-.276.676-.197 1.427-.181 2.145c.317 2.188 2.421 4.027 4.667 3.828c1.489-.016 2.916-.88 3.692-2.145c.251-.443.532-.896.547-1.417c.131-2.385.079-4.76.095-7.145c.011-5.375-.016-10.735.025-16.093z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCtK-XNKxnBr-U8-qoLWP5SA"
+                class="socmed"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 1024 1024"
+                  class="iconify"
+                  data-icon="ant-design:youtube-filled"
+                  data-inline="false"
+                  style="transform: rotate(360deg)"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M941.3 296.1a112.3 112.3 0 0 0-79.2-79.3C792.2 198 512 198 512 198s-280.2 0-350.1 18.7A112.12 112.12 0 0 0 82.7 296C64 366 64 512 64 512s0 146 18.7 215.9c10.3 38.6 40.7 69 79.2 79.3C231.8 826 512 826 512 826s280.2 0 350.1-18.8c38.6-10.3 68.9-40.7 79.2-79.3C960 658 960 512 960 512s0-146-18.7-215.9zM423 646V378l232 133l-232 135z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright border-top">
+        <div class="row justify-content-center">
+          <div class="col-sm-auto col">© TaxEase 2023 All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
